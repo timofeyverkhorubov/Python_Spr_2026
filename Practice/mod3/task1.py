@@ -27,7 +27,6 @@ else:
     humidity = main["humidity"]
     description = weather["description"]
 
-    # Направление ветра (4 стороны)
     if wind_deg < 45 or wind_deg >= 315:
         wind_dir = "северный"
     elif wind_deg < 135:
